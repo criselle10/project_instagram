@@ -4,11 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" 
+          crossorigin="anonymous">
+    <!-- external css -->
     <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>Instagram</title>
 </head>
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12"></div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-4">
+                <img id="igPhoto" src="./assets/images/igPhoto.PNG" alt="instagram display">
+            </div>
+            <div class="col-4">
+                <form class="instagramLogInForm">
+                    <h1>Instagram</h1>
+                    <input type="text" name="email" id="email" placeholder="Phone number, username, or email">
+                    <input type="text" name="password" id="password" placeholder="Password">
+                    <button>Log In</button>
+                    <hr> OR <hr>
+                    <img id="fbLogo" src="./assets/images/fbLogo.png" alt="facebook"><span id="logIn">Log in with Facebook</span>
+                    <p id="forgotPass">Forgot Password</p>
+                </form>
+                <div>
+                    <section>Don't have an account?<p id="signUp">Sign Up</p> </section>
+                </div>
+                <div>
+                    <span id="getTheApp">Get the app.</span>
+                </div>
+                <div class="row">
+                    <div class="col-2 appleStoreIcon">
+                        <img src="./assets/images/appStore.png" alt="app store">
+                    </div>
+                    <div class="col-2 playStoreIcon">
+                        <img src="./assets/images/googlePlay.png" alt="google play store">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+
     
+
+
+
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" 
+            integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" 
+            crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" 
+            integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" 
+            crossorigin="anonymous">
+    </script>
 </body>
 </html>
