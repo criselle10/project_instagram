@@ -6,6 +6,23 @@
 
 #igPhoto {
     display: flex;
-    height: 90vh;
-    padding-top: 50px;
+    height: 85vh;
+    width: 85%;
+    padding-top: 35px;
+    float: right;
+}
+
+form {
+    border: 1px gray;
+}
+
+#appleStoreIcon,
+#playStoreIcon {
+    height: 30px;
+    width: 100px;
+}
+
+#fbLogo {
+    height: 20px;
+    width: 20x;
 }
